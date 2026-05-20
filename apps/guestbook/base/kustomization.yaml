@@ -15,4 +15,7 @@ resources:
 images:
   - name: guestbook
     newName: ghcr.io/samii47/guestbook-gitops
-    newTag: main-014c830
+    newTag: main-63115db
+    select:
+      kind: Deployment
+      name: guestbook
